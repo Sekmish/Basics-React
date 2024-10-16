@@ -1,0 +1,41 @@
+header {
+  background: linear-gradient(135deg, #10c90a, #00f2fe);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #00c4cc;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+header h1 span {
+  font-size: 0.8em;
+  opacity: 0.8;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+header h1 span:hover {
+  color: #ffff99;
+}
+
+@media (max-width: 600px) {
+  header {
+      flex-direction: column;
+  }
+
+
+  header h1 {
+      font-size: 1.2em;
+  }
+}

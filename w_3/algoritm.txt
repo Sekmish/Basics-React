@@ -1,0 +1,19 @@
+1. Создаем папку с проектом
+2. Создаем папку "src" в ней "cimponents", "styles"
+3. Вводим команду npm init -y
+4. npm i webpack webpack-cli
+5. npm i @babel/core babel-loader @babel/preset-env @babel/preset-react
+6. npm i react react-dom
+7. Создаем в папке "src" - "index.js", "index.html"
+8. В html обязательно:
+        <body>
+        <div id="root"></div> 
+        </body>
+9. В корневой папке создаем "webpack.config.js" - настраиваем
+10. npm i style-loader css-loader
+11. Создаем файл в корневой ".babelrc" - смотрим в файле что написано
+12. Добавить в "package.json" - start, build
+13. В папке "components" создаем файл "App.js"
+14. Создаем файл стилей app.css - так для кажого компонента
+15. npm i html-webpack-plugin
+16. npm i webpack-dev-server
